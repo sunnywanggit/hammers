@@ -1,0 +1,30 @@
+{
+    "nested": {
+        "billion": {
+            "nested": {
+                "protobuf": {
+                    "options": {
+                        "go_package": "billion/protobuf/api/community/drink_report/request",
+                        "java_outer_classname": "BDrinkYearReportRequestProto",
+                        "java_package": "billion.protobuf.api.community.drink_report.request",
+                        "java_multiple_files": true
+                    },
+                    "nested": {
+                        "BDrinkYearReportRequest": {
+                            "fields": {
+                                "memberId": {
+                                    "type": "string",
+                                    "id": 1
+                                },
+                                "year": {
+                                    "type": "string",
+                                    "id": 2
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
